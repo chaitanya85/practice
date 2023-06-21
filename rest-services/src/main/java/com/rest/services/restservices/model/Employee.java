@@ -4,6 +4,15 @@ public class Employee {
 
     private int empId;
     private String empName;
+    private float salary;
+
+    public float getSalary() {
+        return salary;
+    }
+
+    public void setSalary(float salary) {
+        this.salary = salary;
+    }
 
     public int getEmpId() {
         return empId;
